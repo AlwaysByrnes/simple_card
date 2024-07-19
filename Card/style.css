@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: #fef2f2;
+}
+
+.card-name{
+    font-weight: bold;
+    
+}
+
+.image-holder{
+    text-align: left;
+}
+
+
+.email{
+    font-weight: 50;
+}
+
+.card-container{
+    border: 1px solid #9498a0;
+    border-radius: 10px;
+    margin: 200px auto 0;  /*Top, left and Right, Bottom */
+    max-width: 340px;
+    box-shadow: 1px 1px 5px;
+    padding-left: 10px;
+}
+
+img{
+    border-radius: 9999px;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-flow: wrap;
+    font-weight: 300;
+    text-align: left;
+
+}
+
